@@ -5,7 +5,7 @@
     "start": "gulp serve",
     "build": "gulp build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "deploy": "gulp build && gh-pages -d build"
+    "deploy": "gulp build && gh-pages -d dist"
   },
   "devDependencies": {
     "apache-server-configs": "^4.0.0",
